@@ -7,6 +7,9 @@ env:
 phases:
    build:
      commands:
+       - dotnet tool install -g AWS.CodeArtifact.NuGet.CredentialProvider
+       - dotnet codeartifact-creds install
+
        - nuget restore
        - msbuild $env:PROJECT.csproj /p:TargetFrameworkVersion=v$env:DOTNET_FRAMEWORK /p:Configuration=Release /p:DeployIisAppPath="Default Web Site" /p:PackageAsSingleFile=false /p:OutDir=C:\codebuild\artifacts\ /t:Package
 artifacts:

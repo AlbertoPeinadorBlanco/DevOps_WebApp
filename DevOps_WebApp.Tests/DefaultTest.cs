@@ -24,10 +24,7 @@ namespace DevOps_WebApp.Tests
         public void btn2019Click_Does2019ReportDisplay_ReportDisplayes()
         {
             //ARRANGE
-            bool gv2019 = true;
-            bool gv2020 = false;
-            bool gv2021 = false;
-            bool gv2022 = false;
+        
 
 
            

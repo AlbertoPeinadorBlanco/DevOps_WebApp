@@ -4,10 +4,10 @@
     <h2><%: Title %>.</h2>
     <h3>Your contact page.</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
+        555 totnes grove<br />
+        Birmingham, B29 6EC<br />
         <abbr title="Phone">P:</abbr>
-        425.555.0100
+        07872152136
     </address>
 
     <address>
